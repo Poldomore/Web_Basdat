@@ -2,15 +2,27 @@ import { useEffect, useState } from 'react'
 import './Hero.css'
 import { heroSlides } from '../../data/store'
 
-// ponytail: fixed 5s autoplay; add pause-on-hover/arrows when a third slide lands
+const AUTOPLAY_DELAY = 5000
+const LOOP_RESET_DELAY = 700
+
 export default function Hero() {
   const [i, setI] = useState(0)
   const [anim, setAnim] = useState(true)
   useEffect(() => {
-    const t = setInterval(() => { setAnim(true); setI((p) => p + 1) }, 5000)
-    return () => clearInterval(t)
+    const atLoopEnd = i === heroSlides.length
+    // Reset even when the browser skips the transform transition.
+    const timer = setTimeout(() => {
+      setAnim(!atLoopEnd)
+      setI(atLoopEnd ? 0 : i + 1)
+    }, atLoopEnd ? LOOP_RESET_DELAY : AUTOPLAY_DELAY)
+    return () => clearTimeout(timer)
   }, [i])
-  const snap = () => { if (i === heroSlides.length) { setAnim(false); setI(0) } }
+  const snap = (event) => {
+    if (event.target === event.currentTarget && event.propertyName === 'transform' && i === heroSlides.length) {
+      setAnim(false)
+      setI(0)
+    }
+  }
 
   return (
     <section className="hero">
