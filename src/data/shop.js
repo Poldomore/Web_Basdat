@@ -1,0 +1,18 @@
+export const shopProducts = [
+  { brand: 'Nike', model: 'Air Jordan 1 Retro High OG', cat: 'Lifestyle', price: 180, rating: 4.8, reviews: 320, img: '/assets/shoes/Nike_Panda.png' },
+  { brand: 'New Balance', model: '9060 "Sea Salt"', cat: 'Lifestyle', price: 150, rating: 4.6, reviews: 214, img: '/assets/shoes/Nb_530.png' },
+  { brand: 'adidas', model: 'Campus 00s', cat: 'Lifestyle', price: 110, rating: 4.5, reviews: 189, img: '/assets/shoes/Adidas_Samba_white.png' },
+  { brand: 'Puma', model: 'Suede XL', cat: 'Lifestyle', price: 90, rating: 4.4, reviews: 120, img: '/assets/shoes/Puma_Suede.png' },
+  { brand: 'Converse', model: 'Chuck 70', cat: 'Lifestyle', price: 95, rating: 4.7, reviews: 312, img: '/assets/shoes/Converse_Classic.png' },
+  { brand: 'Vans', model: 'Old Skool', cat: 'Lifestyle', price: 75, rating: 4.6, reviews: 276, img: '/assets/shoes/Vans_Laceup.png' },
+  { brand: 'ASICS', model: 'GEL-Kayano 14', cat: 'Running', price: 160, rating: 4.8, reviews: 421, img: '/assets/shoes/Asics_Y2k.png' },
+  { brand: 'Reebok', model: 'Club C 85', cat: 'Lifestyle', price: 80, rating: 4.4, reviews: 98, img: '/assets/shoes/Reebok_C85.png' },
+  { brand: 'Nike', model: 'Air Max 97', cat: 'Lifestyle', price: 170, rating: 4.7, reviews: 230, img: '/assets/shoes/Nike_Sabrina2.png' },
+  { brand: 'adidas', model: 'Ultraboost 1.0', cat: 'Running', price: 190, rating: 4.6, reviews: 187, img: '/assets/shoes/Adidas_Ultraboost.png' },
+  { brand: 'Puma', model: 'RS-X', cat: 'Lifestyle', price: 120, rating: 4.5, reviews: 143, img: '/assets/shoes/Puma_Trainer.png' },
+  { brand: 'New Balance', model: '2002R', cat: 'Lifestyle', price: 140, rating: 4.6, reviews: 201, img: '/assets/shoes/NB_200R.png' },
+  { brand: 'Nike', model: 'Dunk Low', cat: 'Lifestyle', price: 120, rating: 4.6, reviews: 389, img: '/assets/shoes/Nike_AirForce1.png' },
+  { brand: 'ASICS', model: 'Gel-NYC', cat: 'Lifestyle', price: 150, rating: 4.5, reviews: 176, img: '/assets/shoes/Asics_Reige.png' },
+  { brand: 'adidas', model: 'Adilette Comfort', cat: 'Slides & Sandals', price: 45, rating: 4.4, reviews: 95, img: '/assets/shoes/Adidas_Chunky.png' },
+  { brand: 'Timberland', model: '6 Inch Premium Boot', cat: 'Boots', price: 200, rating: 4.7, reviews: 121, img: '/assets/shoes/Vans_Timberland.png' },
+]

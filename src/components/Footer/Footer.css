@@ -1,0 +1,12 @@
+footer{background:#0a0a0a;color:#cfcfcf;margin-top:28px}
+.fgrid{max-width:1280px;margin:0 auto;display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr 1.3fr;gap:24px;padding:40px 32px;font-size:13px}
+.fgrid b{color:#fff;font-size:12px;display:block;margin-bottom:12px}
+.fgrid a{display:block;margin:8px 0;color:#cfcfcf}
+.flogo{height:36px}
+footer form{display:flex;margin-top:12px}
+footer input{flex:1;background:#1c1c1c;border:1px solid #333;color:#fff;padding:12px;border-radius:8px 0 0 8px;outline:0}
+footer form button{background:#e31e24;border:0;color:#fff;padding:0 18px;border-radius:0 8px 8px 0;cursor:pointer;font-size:18px}
+.fbottom{border-top:1px solid #222;display:flex;justify-content:space-between;max-width:1280px;margin:0 auto;padding:14px 32px;font-size:12px}
+.fbottom a{color:#cfcfcf}
+@media(max-width:1000px){.fgrid{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){.fgrid{grid-template-columns:1fr}}

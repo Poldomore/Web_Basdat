@@ -1,0 +1,6 @@
+.features{background:#f6f6f7;border-radius:12px;display:grid;grid-template-columns:repeat(4,1fr);padding:18px}
+.feat{display:flex;gap:12px;align-items:center;justify-content:center}
+.feat+.feat{border-left:1px solid #e2e2e2}
+.feat svg{width:30px;height:30px;fill:none;stroke:#111;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.feat b{display:block;font-size:13px}.feat small{color:#555;font-size:12px}
+@media(max-width:1000px){.features{grid-template-columns:repeat(2,1fr);gap:16px}.feat+.feat{border:0}}

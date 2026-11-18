@@ -1,0 +1,12 @@
+.topbar{background:#0a0a0a;color:#fff;font-size:12px;text-align:center;padding:8px 12px;font-family:Poppins,system-ui,sans-serif}
+.nav{position:sticky;top:0;z-index:10;background:#fff;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:24px;padding:12px 5%;border-bottom:1px solid #eee}
+.logo{display:flex;align-items:center}.logo img{height:64px;width:auto;object-fit:contain;flex-shrink:0}
+.links{display:flex;gap:30px;font-size:15px;font-weight:500;margin:0;justify-self:center;font-family:Poppins,system-ui,sans-serif}
+.links .active{color:#e31e24;border-bottom:2px solid #e31e24;padding-bottom:2px}
+.links .sale{color:#e31e24}
+.icons{display:flex;gap:28px;margin-left:0;justify-self:end}
+.icons button{background:none;border:0;cursor:pointer;position:relative;padding:0}
+.icons svg{width:26px;height:26px;fill:none;stroke:#111;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.cart .badge{position:absolute;top:-7px;right:-8px;background:#e31e24;color:#fff;font-size:10px;min-width:16px;height:16px;border-radius:99px;display:grid;place-items:center;font-weight:700}
+@media(max-width:1000px){.links{display:none}}
+@media(max-width:640px){.nav{padding:10px 16px}}

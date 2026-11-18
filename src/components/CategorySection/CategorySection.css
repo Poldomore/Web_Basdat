@@ -1,0 +1,5 @@
+.cat-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:12px}
+.cat{background:#f6f6f7;border-radius:12px;padding:12px;text-align:center;font-size:13px;font-weight:500;display:flex;flex-direction:column;gap:8px}
+.cat img{height:90px;width:100%;object-fit:contain}
+@media(max-width:1000px){.cat-grid{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:640px){.cat-grid{grid-template-columns:repeat(2,1fr)}}

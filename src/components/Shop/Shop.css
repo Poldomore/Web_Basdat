@@ -1,0 +1,18 @@
+.shop-banner img{width:100%;height:auto;display:block}
+.shop-head{display:flex;justify-content:space-between;align-items:flex-start;margin:4px 0 16px}
+.shop-head h1{font-size:22px;margin:0}
+.shop-head small{color:#777;font-size:13px}
+.sort{display:flex;align-items:center;gap:8px;font-size:13px;color:#333}
+.sort select{padding:8px 12px;border:1px solid #ddd;border-radius:8px;font-size:13px;background:#fff;cursor:pointer}
+.shop-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px 16px}
+.shop-grid .product span{font-size:13px}
+.stars{color:#f5a623;font-size:13px;letter-spacing:1px}
+.stars em{font-style:normal;color:#777;letter-spacing:0;font-size:12px;margin-left:4px}
+.pager{display:flex;gap:8px;justify-content:center;margin:32px 0 8px}
+.pager button{min-width:36px;height:36px;border:1px solid #e2e2e2;background:#fff;border-radius:8px;cursor:pointer;font-size:14px}
+.pager button.on{background:#e31e24;border-color:#e31e24;color:#fff;font-weight:700}
+.pager button:disabled{opacity:.4;cursor:default}
+.pimg-click{cursor:pointer}
+@media(max-width:640px){.modal-box{grid-template-columns:1fr}.modal-img{padding:20px}.modal-img img{max-height:220px}}
+@media(max-width:1000px){.shop-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:640px){.shop-grid{grid-template-columns:repeat(2,1fr)}.shop-head{flex-direction:column;gap:12px}}
